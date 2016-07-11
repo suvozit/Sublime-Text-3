@@ -5,7 +5,7 @@
   "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
   "font_size": 13,
   "scroll_past_end": true,
-  "tab_size": 2,
+  "tab_size": 4,
   "translate_tabs_to_spaces": true,
   "word_wrap": true
 }
