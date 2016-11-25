@@ -6,7 +6,7 @@
 - kkga/spacegray https://github.com/kkga/spacegray
 - spadgos/sublime-jsdocs https://github.com/spadgos/sublime-jsdocs
 
-# Sublime settings
+## Sublime settings
 `Preferences` > `Settings - User`
 ```json
 {
@@ -20,9 +20,9 @@
 }
 ```
 
-# 4 `space` tabs
+## 4 `space` tabs
 
-## Reasons:
+Reasons:
 
 1. If we use space its always constant unlike tab size for tabs
 2. Its homogeneous while having inline indentation
