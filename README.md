@@ -1,14 +1,23 @@
-## Installation
+# Installation
 1. Tool / Install Packages
-2. Tools / Command Pallete <kbd title="Shift+Command+P">⇧⌘P</kbd>  -> `Package Control: Install Packages`
+2. Tools / Command Pallete <kbd title="Shift">⇧</kbd> + <kbd title="Command">⌘</kbd> + <kbd title="+P">P</kbd>  
 
-## Packages
-- kkga/spacegray https://github.com/kkga/spacegray
-- spadgos/sublime-jsdocs https://github.com/spadgos/sublime-jsdocs
+```
+    Package Control: Install Packages. 
+```
 
-## Sublime settings
-`Preferences` > `Settings - User`
+
+# Packages
+
+- kkga/spacegray  
+  https://github.com/kkga/spacegray  
+- spadgos/sublime-jsdocs  
+  https://github.com/spadgos/sublime-jsdocs  
+
+
+# Sublime settings
 ```json
+-- Preferences > Settings - User
 {
     "theme": "Spacegray.sublime-theme",
     "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
@@ -19,18 +28,20 @@
     "word_wrap": true
 }
 ```
+```
+    Tools / Command Pallete - Indentation: Reindent Lines
+````
+
 
 ## 4 `space` tabs
 
-Reasons:
-
-1. If we use space its always constant unlike tab size for tabs
-2. Its homogeneous while having inline indentation
+If we use space its always constant in any environment,
+unlike editor\'s `tab size for tabs`
 
   ```
-something   = oops
-foo         = bar 😛
+Looks       = good
+to          = me 👍🏻
 
-something	=	oops
-foo			=	bar 😛
+oops		= something
+went		= wrong 😱😰😓
   ```
